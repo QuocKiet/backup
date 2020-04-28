@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("h1").click(function () {
+                var btnvalue = $(this).text();
+                console.log(btnvalue)
+                if (btnvalue === 'START') {
+                   
+                    $(this).text("STOP");
+                } else {
+                   
+                    $(this).text("START");
+                }
+                    // nhưng mấy cái thẻ khác không có value
+                    // vd div ha
+                    // ý là thử cái attr value của mấy thẻ khác á. không có đúng k?
+                    // uhm. vậy thằng nào nảy nói có. :))))))
+                    // Kiet bao button con` gi` :/
+                    // :))) thôi được rồi, mò tiếp đây tks :)))
+                    // có gì tối hỏi tiếp kk
+                    // oke
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>START</h1>
+</body>
+
+</html>
